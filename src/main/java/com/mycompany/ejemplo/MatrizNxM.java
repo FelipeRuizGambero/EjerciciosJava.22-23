@@ -110,12 +110,12 @@ public static int comproColumna(int [][] matriz, int[] columna, int M, int N ){
             Matr.ver_vector(Filas);
             System.out.println("");
 
-            valor = Matr.comproColumna(matrizMxN, vectorM, Filas, Columnas);
+            valor = MatrizNxM.comproColumna(matrizMxN, vectorM, Filas, Columnas);
             if(valor == -1){
                 System.out.println("No existe coincidencia (-1)");
                
             } else {
-                System.out.println("La columna: " + valor + " ha coincidido");
+                System.out.println("La columna: " + (valor+1) + " ha coincidido");
                 System.out.println("");
             }
 
